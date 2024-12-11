@@ -28,14 +28,14 @@ To demonstrate and validate the solver, a **pitzDaily** test case has been prepa
 ---
 
 ## Getting Started
-# 1. Clone the Repository
+### 1. Clone the Repository
 
 git clone <repository-url>
 cd custom-openfoam-solver
 
 
 ##############################################
-# 2. Compile the Solver
+### 2. Compile the Solver
 ##############################################
 
 # Load your OpenFOAM environment
