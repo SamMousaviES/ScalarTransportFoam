@@ -35,7 +35,7 @@ https://blog.sam-mousavi.com/2024/12/adding-a-scalar-transport-equation-to-a-cus
 ### 1. Clone the Repository
 
 ```bash
-git clone [<repository-url>](https://github.com/SamMousaviES/ScalarTransportFoam.git)
+git clone https://github.com/SamMousaviES/ScalarTransportFoam.git
 cd custom-openfoam-solver
 ```
 
