@@ -1,4 +1,4 @@
-# Custom OpenFOAM Solver with Scalar Transport for PitzDaily Case
+# Custom OpenFOAM 12 Solver with Scalar Transport for PitzDaily Case
 
 ## Project Description
 
@@ -28,7 +28,6 @@ To demonstrate and validate the solver, a **pitzDaily** test case has been prepa
 ---
 
 ## Getting Started
-##############################################
 # 1. Clone the Repository
 ##############################################
 git clone <repository-url>
