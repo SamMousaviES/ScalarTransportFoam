@@ -1,0 +1,4 @@
+SOURCE += setDeltaT.C
+SOURCE += myFoamRun.C
+
+EXE = $(FOAM_USER_APPBIN)/myFoamRun
