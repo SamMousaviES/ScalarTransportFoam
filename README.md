@@ -37,18 +37,21 @@ cd custom-openfoam-solver
 
 ### 2. Compile the Solver
 
-# Load your OpenFOAM environment
+Load your OpenFOAM environment
+```bash
 source /opt/openfoam12/etc/bashrc
-
-# Clean and compile the solver
+```
+Clean and compile the solver
+```bash
 wclean
 wmake
-
+```
 
 ### 3. Prepare the Case
 
 
-# Navigate to the pitzDaily directory and ensure:
+Navigate to the pitzDaily directory and ensure:
+
 cd pitzDaily
 
 # Check that 'constant/transportProperties' includes the diffusivity D_T.
