@@ -30,13 +30,12 @@ To demonstrate and validate the solver, a **pitzDaily** test case has been prepa
 ## Getting Started
 ### 1. Clone the Repository
 
+```bash
 git clone <repository-url>
 cd custom-openfoam-solver
+```
 
-
-##############################################
 ### 2. Compile the Solver
-##############################################
 
 # Load your OpenFOAM environment
 source /opt/openfoam12/etc/bashrc
@@ -46,9 +45,8 @@ wclean
 wmake
 
 
-##############################################
-# 3. Prepare the Case
-##############################################
+### 3. Prepare the Case
+
 
 # Navigate to the pitzDaily directory and ensure:
 cd pitzDaily
@@ -57,16 +55,16 @@ cd pitzDaily
 # Check that '0/T' file defines initial and boundary conditions for the scalar field.
 
 
-##############################################
-# 4. Run the Simulation
-##############################################
+
+### 4. Run the Simulation
+
 
 myFoamRun
 
 
-##############################################
-# 5. Post-Processing
-##############################################
+
+### 5. Post-Processing
+
 
 # Visualize the scalar field T and flow results using ParaView or another tool.
 # Example:
