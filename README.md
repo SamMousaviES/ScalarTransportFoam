@@ -5,7 +5,6 @@
 This repository contains a custom OpenFOAM solver, **myFoamRun**, developed to simulate scalar transport alongside flow variables in CFD simulations. The project modifies the default `foamRun` solver by incorporating an advection-diffusion equation for a scalar field `T`, enabling its application in scenarios such as temperature transport, pollutant dispersion, or passive scalar studies.
 
 To demonstrate and validate the solver, a **pitzDaily** test case has been prepared. This classic benchmark case models flow over a backward-facing step, providing a reliable setup for testing scalar transport under transient conditions.
-
 To learn how to integrate a scalar transport equation into a custom OpenFOAM 12 solver and see a working example, check out the article at the link below. For more details and an in-depth walkthrough, please visit:
 https://blog.sam-mousavi.com/2024/12/adding-a-scalar-transport-equation-to-a-custom-solver-in-openfoam-12/
 ---
