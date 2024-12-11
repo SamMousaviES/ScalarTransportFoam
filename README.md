@@ -51,29 +51,31 @@ wmake
 
 
 Navigate to the pitzDaily directory and ensure:
-
+```bash
 cd pitzDaily
-
-# Check that 'constant/transportProperties' includes the diffusivity D_T.
-# Check that '0/T' file defines initial and boundary conditions for the scalar field.
+```
+Check that 'constant/transportProperties' includes the diffusivity D_T.
+Check that '0/T' file defines initial and boundary conditions for the scalar field.
 
 
 
 ### 4. Run the Simulation
 
-
+```bash
 myFoamRun
-
+```
 
 
 ### 5. Post-Processing
 
 
-# Visualize the scalar field T and flow results using ParaView or another tool.
-# Example:
-# paraview
+Visualize the scalar field T and flow results using ParaView or another tool.
+Example:
+```bash
 
-##############################################
+paraview
+```
+
 # Use Cases
 #
 # - Heat transfer simulations
@@ -84,5 +86,5 @@ myFoamRun
 # Official OpenFOAM Documentation: https://openfoam.org
 # Example setup files and test cases are included in the repository.
 #
-# 🎉 Happy simulating! Explore, experiment, and customize further as needed! 🚀
-##############################################
+🎉 Happy simulating! Explore, experiment, and customize further as needed! 🚀
+
