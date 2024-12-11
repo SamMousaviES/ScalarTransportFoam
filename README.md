@@ -82,13 +82,16 @@ paraview
 
 # Use Cases
 #
-# - Heat transfer simulations
-# - Pollutant dispersion in airflow
-# - Steady-state scalar transport in fluid systems
-#
+- Heat transfer simulations
+- Pollutant dispersion in airflow
+- Scalar transport in fluid systems
+
 # Resources:
-# Official OpenFOAM Documentation: https://openfoam.org
-# Example setup files and test cases are included in the repository.
+Official OpenFOAM Documentation: https://openfoam.org
+
+Sam Engineering Solutions weblog: https://blog.sam-mousavi.com/2024/12/adding-a-scalar-transport-equation-to-a-custom-solver-in-openfoam-12/
+
+Example setup files and test cases are included in the repository.
 #
 🎉 Happy simulating! Explore, experiment, and customize further as needed! 🚀
 
